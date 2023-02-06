@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .mensagem{
+        margin-right: 0;
+    
+    }
+}

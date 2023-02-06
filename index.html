@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/responsivo.css">
+    <title>quest 2 | HTML | CSS | JS</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="mensagem">
+
+            <h1>
+                FICOU COM DÚVIDA? 
+                <br>
+                NOS MANDE UMA MENSAGEM!
+            </h1>
+
+            <p>
+                caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+            </p>
+
+        </div>
+
+        <div class="formulario">
+
+            <div class="conteudo">
+
+            <form method="post" onsubmit="formulario(event);">
+
+                <div class="campo">
+
+                <input type="name" placeholder="Nome completo *">
+                <div class="mensagem-feedback">campo obrigatório</div>
+
+            </div>
+               
+            <div class="campo">
+
+                <input type="email" placeholder="Email *">
+                <div class="mensagem-feedback">campo obrigatório</div>
+
+            </div>
+
+            <div class="campo">
+
+                <input type="tel" placeholder="Telefone *">
+                <div class="mensagem-feedback">campo obrigatório</div>
+
+            </div>
+
+            <div class="campo">
+
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+                <div class="mensagem-feedback">campo obrigatório</div>
+
+            </div>
+
+                <h2>
+                    *campos obrigatórios
+                </h2>
+
+                <button id="enviar" type="submit">Enviar</button>
+
+            </form>
+
+        </div>
+
+
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
